@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #7bbbbb;
+}
+
+header .header-box {
+  height: 70px;
+
+  width: 1280px;
+
+  display: grid;
+  grid-template-columns: 11fr 9fr 2fr 1fr 3fr;
+  background-color: #c5e7e7;
+}
+
+header .header-box .logo {
+  height: 70px;
+  padding: 20px 0 0 15px;
+  background-color: #c9aa81;
+}
+
+header .header-box .nav-box {
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #554633;
+}
+
+.submenu {
+  text-align: center;
+  line-height: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .header-box .nav-box .submenu a {
+  text-decoration: none;
+  color: rgb(37, 38, 39);
+}
+
+header .header-box .social-box {
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #bfd896;
+}
+
+header .header-box .social-box i {
+  color: rgb(37, 38, 39);
+  text-align: center;
+  line-height: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header .header-box .search-box {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(176, 207, 186);
+  /* font-weight: 100; */
+}
+
+header .header-box .search-box i {
+  font-weight: lighter;
+  color: #4d4d4d;
+}
+header .header-box .contact-box {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(66, 45, 45);
+}
+
+header .header-box .contact-box button {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(175, 30, 30);
+  border-radius: 30px;
+  border-style: none;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f0f8ff;
+}
+
+/* ------------------- HEADER-END -------------------*/
+
+/* --------------------STICKY -ELEMENT -BEGIN-------------------- */
+
+.sticky-section {
+  height: auto;
+  /* width: 50px; */
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #c5e7e7;
+  position: fixed;
+  right: 10px;
+  top: 20%;
+  z-index: 10;
+}
+
+.sticky-section .subject-part {
+  height: auto;
+  /* width: 50px; */
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #384242;
+  /* padding: 5px 5px; */
+  border: 1px solid;
+  position: relative;
+}
+
+.sticky-section .subject-part-2 {
+  height: auto;
+  /* width: 50px; */
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #445353;
+  /* padding: 5px 5px; */
+  border: 1px solid;
+  position: relative;
+  display: none;
+}
+
+.right-part {
+  text-align: center;
+  padding: 20px;
+}
+.left-part {
+  background: #25d6d6;
+  padding: 20px 5px 20px 20px;
+  width: 180px;
+  position: absolute;
+  right: 60px;
+  /* display: none; */
+}
+
+.right-part:hover .left-part {
+  display: block;
+}
+
+.sticky-section .demo-box {
+}
+
+/* ---STICKY -ELEMENT -END---- */
+
+/* MAIN-SECTION-BEGIN */
+
+.main-section {
+  height: 1450px;
+  width: 100%;
+  background: url(https://jevelin.shufflehound.com/digital-media-agency/wp-content/uploads/sites/25/2019/03/DMA-gif3-compressor-compressor.gif?id=84);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  border: 1px solid;
+}
+
+.intro-box {
+  height: 200px;
+  width: 700px;
+  background: #7b81bb;
+  text-align: center;
+
+  margin: 50px auto;
+  font-size: 38px;
+  color: #f0f8ff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* margin-top: 300px; */
+}
+
+.content-1-box {
+  height: 850px;
+  width: 1250px;
+  background: #14609e;
+  margin: 80px auto;
+  border-radius: 15px;
+  padding: 100px 0 0 75px;
+}
+
+.content-1-box .data-1 {
+  height: 200px;
+  width: 400px;
+  background: #0c7a24;
+}
+
+.content-1-box .data-1 h1 {
+  height: 50px;
+  width: 400px;
+  background: #8fda9f;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #f0f8ff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-1-box .data-1 h1 i {
+  margin-right: 30px;
+}
+
+.content-1-box .data-1 p {
+  height: 120px;
+  width: 400px;
+  background: #c6da8f;
+
+  font-size: 20px;
+  color: #f0f8ff;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.curved-path {
+  margin: -250px 0 0 200px;
+}
+
+.data-1-location {
+  margin: -450px 0 0 650px;
+}
+
+/* .down-arrow {
+  height: 100px;
+  width: 100px;
+  background: #0c7a24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.down-arrow .circle-section {
+  height: 70px;
+  width: 70px;
+  background: #f3f3f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -150px 0 0 50px;
+}
+
+/* MAIN-SECTION-END */
+
+/* -----SOCIAL-MEDIA-BEGIN------- */
+
+.social-media {
+  height: auto;
+  width: 100%;
+  /* background: #7b81bb; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.social-media .social-section {
+  height: 400px;
+  /* background: #222541; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-social-section {
+  height: 55%;
+  width: 65%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.sub-social-section .picture {
+  font-size: 55px;
+  color: #fda14b;
+}
+
+.sub-social-section .picture i {
+  text-shadow: 2px 2px 5px #14609e;
+}
+.sub-social-section .social-name {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-social-section .social-para {
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -25px;
+  color: #969696;
+}
+/* -----SOCIAL-MEDIA-END------- */
